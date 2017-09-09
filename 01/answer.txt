@@ -1,0 +1,2 @@
+That program prints all the factors of 12, starting from 2.
+It will print: 2,3,4,6
