@@ -6,7 +6,7 @@ def freq(n,l):
 	return count
 
 def min(l):
-	m = max(l)
+	m = l[0]
 	for i in l:
 		if i < m:
 			m = i
