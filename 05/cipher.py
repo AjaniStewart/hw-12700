@@ -1,3 +1,4 @@
+
 import sys
 
 def encode_letter(c,r):
@@ -13,10 +14,10 @@ def encode_string(s,r):
 			nS += i
 	return nS
 
-def full_encode(s,n=27):
+def full_encode(s,n=26):
 	nS = ""
 
-	for i in range(1,n):
+	for i in range(n):
 		nS += encode_string(s,i) + '\n'
 	return nS
 
@@ -28,3 +29,5 @@ if len(sys.argv) == 1:
 	print('...')
 else:
 	print(full_encode(sys.argv[1]))
+
+
