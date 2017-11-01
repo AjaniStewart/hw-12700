@@ -26,7 +26,7 @@ def ladyBug(s):
     return 'YES' #all other cases it can be solved
         
 Q = int(input().strip())
-for a0 in range(Q):
+for _ in range(Q):
     n = int(input().strip())
     b = input().strip()
     print(ladyBug(b))
